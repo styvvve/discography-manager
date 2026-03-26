@@ -1,0 +1,38 @@
+# Build
+/build/
+/cmake-build-*/
+/out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Compilation
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# Logs
+*.log
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+.swp
+
+# Data (optionnel)
+data/
+!data/.gitkeep
