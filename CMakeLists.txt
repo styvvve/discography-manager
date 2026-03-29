@@ -3,4 +3,8 @@ project(discography_manager)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(discography_manager src/main.cpp)
+add_executable(discography_manager
+        src/main.cpp
+        src/operatorOverloading.cpp
+        test/tests.cpp
+)
